@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flex</title>
+    <style>
+        .main-1 {
+            border: 1px solid #201f1f;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            /* display: none; */
+        }
+
+        .smaller {
+            border: 1px solid #f00c0c;
+            height: 100px;
+            /* width: 45%; */
+        }
+
+        .x {
+            width: 60%;
+        }
+
+        .y {
+            width: 35%;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .s {
+            width: 23%;
+            border-bottom: 1px solid #777;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Setup username and email -->
+    <!-- git config --global user.name "Jane" -->
+    <!-- git config --global user.email "walter@emobilis.org" -->
+
+    <!-- git init -->
+    <!-- git add . -->
+     <!--  -->
+
+
+
+    <div class="main-1">
+        <div class="smaller x">A</div>
+        <div class="smaller y">B</div>
+    </div>
+
+    <div class="container">
+        <div class="s">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis sit unde eaque at atque, velit totam
+                quasi, vitae voluptate ducimus distinctio adipisci? Quos nemo nulla totam laborum quaerat omnis
+                assumenda.</p>
+        </div>
+        <div class="s">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis quos eum assumenda esse, dolor eaque
+                accusantium consectetur molestiae sed repudiandae, labore dolore! Culpa omnis tenetur, obcaecati ratione
+                itaque blanditiis veniam.</p>
+        </div>
+        <div class="s">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti possimus molestias eaque neque hic quas
+                vel ratione, voluptatem architecto sed dolores reiciendis deserunt veritatis, quisquam incidunt ipsa
+                voluptates quos ab.</p>
+        </div>
+        <div class="s">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos tempora aperiam voluptatem maxime cumque?
+                Quidem, fugiat nihil! Quaerat, tempore veritatis ullam nobis, mollitia minus quo quibusdam quis pariatur
+                repellendus ut!</p>
+        </div>
+    </div>
+
+    <!-- .content>(.s>p>lorem)*4 -->
+    <!-- .container>.s*4>p>lorem -->
+
+    <!-- (h1>lorem6)+p>lorem -->
+
+</body>
+
+</html>
