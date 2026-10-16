@@ -5,17 +5,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Links or Anchors</title>
+    <style>
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 50px;
+        }
+
+        .nav-links>ul {
+            display: flex;
+        }
+
+        .nav-links li {
+            list-style-type: none;
+        }
+
+        .nav-links a{
+            text-decoration: none;
+            padding: 10px 16px;
+            font-size: 1.2rem;
+            color: rgb(6, 121, 83);
+        }
+
+        .nav-links a:hover{
+            color: rgb(1, 44, 30);
+            border-bottom: 2px solid rgb(1, 44, 30);
+        }
+    </style>
 </head>
 
 <body>
 
-       <a href="forms.html">Forms</a>
+    <nav>
+        <div class="logo">Home Away</div>
+        <div class="nav-links">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Team</a>
+                </li>
+                <li>
+                    <a href="#">Products</a>
+                </li>
+                <li>
+                    <a href="#">Pricing</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-       <a href="tables.html">Tables</a>
+    <a href="forms.html">Forms</a>
 
-       <a href="list.html">List</a>
+    <a href="tables.html">Tables</a>
 
-       <a href="https://www.instagram.com/m10_official/" target="_blank">Insta</a>
+    <a href="list.html">List</a>
+
+    <a href="https://www.instagram.com/m10_official/" target="_blank">Insta</a>
 
 
 </body>
