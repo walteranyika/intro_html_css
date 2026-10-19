@@ -1,0 +1,48 @@
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.col{
+    border: 1px solid gray;
+    width: 24%;
+}
+
+p{
+    text-align: center;
+}
+
+/* Media queries */
+/* medium */
+@media screen and (min-width:768px) and (max-width: 1023px) {
+    p{
+        color: #f02929;
+    }
+
+    .col{
+      width: 48%;  
+      margin-bottom: 12px;
+    }
+}
+/* mobile */
+@media screen and (max-width:767px){
+    .col{
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    p{
+        color: #4a84f0;
+    }
+}
+
+
+/* sm md lg xl xxl */
+
+/* CSS frameworks  --Bootstrap 5/ -- Tailwind -- Bulma --Chakra -- code that is already done 95% 5% */
+/* Python -- django */
+/* JS  -- React */
